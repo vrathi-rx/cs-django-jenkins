@@ -1,0 +1,17 @@
+************* Module polls.models
+polls/models.py:11: [E0307(invalid-str-returned), Question.__str__] __str__ does not return str
+polls/models.py:23: [E0307(invalid-str-returned), Choice.__str__] __str__ does not return str
+************* Module polls.views
+polls/views.py:51: [C0304(missing-final-newline), ] Final newline missing
+polls/views.py:7: [C0411(wrong-import-order), ] third party import "from django.utils import timezone" should be placed before "from .models import Choice, Question"
+************* Module polls.urls
+polls/urls.py:12: [C0304(missing-final-newline), ] Final newline missing
+************* Module polls.tests
+polls/tests.py:15: [E1101(no-member), QuestionModelTests.was_published_recently] Instance of 'QuestionModelTests' has no 'pub_date' member
+polls/tests.py:8: [C0411(wrong-import-order), ] third party import "from django.urls import reverse" should be placed before "from .models import Question"
+************* Module polls.admin
+polls/admin.py:5: [C0304(missing-final-newline), ] Final newline missing
+
+------------------------------------------------------------------
+Your code has been rated at 8.06/10 (previous run: 8.06/10, +0.00)
+
