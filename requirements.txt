@@ -7,3 +7,4 @@ django-jenkins
 pep8
 pyflakes
 pylint
+coverage==4.1
